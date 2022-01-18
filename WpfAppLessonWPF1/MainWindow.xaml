@@ -5,32 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppLessonWPF1"
         mc:Ignorable="d"
-        Title="КАЛЬКУЛЯТОР" Height="600" Width="500">
-    <Grid x:Name="КАЛЬКУЛЯТОР" Height="575" Width="500">
+        Title="КАЛЬКУЛЯТОР" Height="700" Width="500">
+    <Grid x:Name="КАЛЬКУЛЯТОР" Height="675" Width="500">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF081B82"/>
                 <GradientStop Color="White" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button Content="1" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="50,150,0,0"/>
-        <Button Content="2" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="150,150,0,0"/>
-        <Button Content="3" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="250,150,0,0"/>
-        <Button Content="+" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="375,150,0,0"/>
-        <Button Content="4" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="50,250,0,0"/>
-        <Button Content="5" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="150,250,0,0"/>
-        <Button Content="6" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="250,250,0,0"/>
-        <Button Content="-" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="375,250,0,0"/>
-        <Button Content="7" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="50,350,0,0"/>
-        <Button Content="8" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="150,350,0,0"/>
-        <Button Content="9" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="250,350,0,0"/>
-        <Button Content="*" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="375,350,0,0"/>
-        <Button Content="0" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="50,450,0,0"/>
-        <Button Content="," FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="150,450,0,0"/>
-        <Button Content="=" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="250,450,0,0"/>
-        <Button Content="/" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="375,450,0,0"/>
-        <TextBox TextWrapping="Wrap" Text="TextBox" Width="400" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,25,0,0" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="-246,250,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="1" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="50,250,0,0"/>
+        <Button Content="2" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="150,250,0,0"/>
+        <Button Content="3" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="250,250,0,0"/>
+        <Button Content="+" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="375,250,0,0"/>
+        <Button Content="4" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="50,350,0,0"/>
+        <Button Content="5" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="150,350,0,0"/>
+        <Button Content="6" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="250,350,0,0"/>
+        <Button Content="-" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="375,350,0,0"/>
+        <Button Content="7" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="50,450,0,0"/>
+        <Button Content="8" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="150,450,0,0"/>
+        <Button Content="9" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="250,450,0,0"/>
+        <Button Content="*" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="375,450,0,0"/>
+        <Button Content="0" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="50,550,0,0"/>
+        <Button Content="," FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="150,550,0,0"/>
+        <Button Content="=" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="250,550,0,0"/>
+        <Button Content="/" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="75" Margin="375,550,0,0"/>
+        <TextBlock TextWrapping="Wrap" Text="TextBlock" Width="400" Height="150" Margin="50,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" Background="#FFD2D5DA" Foreground="#FFB4B4B4"/>
 
     </Grid>
 </Window>
